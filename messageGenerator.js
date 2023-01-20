@@ -4,5 +4,5 @@ const messages = ['Airbus A380 seating capacity - 853', 'Airbus A330 seating cap
 const randNum = () =>{
     return Math.floor(Math.random() * (3 - 0 + 1) + 0);
 }
-
+console.log('Hello, folowing is the random message related to aircrafts.');
 console.log(messages[randNum()]);
