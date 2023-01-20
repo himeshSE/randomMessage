@@ -3,6 +3,7 @@ const messages = ['Airbus A380 seating capacity - 853', 'Airbus A330 seating cap
 //Function to generate numbers between 0 and 3 (0 and 3 inclusive) 
 const randNum = () =>{
     return Math.floor(Math.random() * (3 - 0 + 1) + 0);
+    
 }
-
+console.log('Test branch');
 console.log(messages[randNum()]);
